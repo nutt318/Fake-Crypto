@@ -1,4 +1,4 @@
-# Fake-Malware | A Fake Look-alike Cryptlocker Ransomware
+# Fake-Crypto | A Fake Look-alike Cryptlocker Ransomware
 Created to test the incident response handeling of a look-alike CryptoLocker ransomware.
 
 ## 🚀 Introduction
