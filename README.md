@@ -1,5 +1,5 @@
 # Fake-Crypto | A Fake Look-alike Cryptlocker Ransomware
-Created to test the incident response handeling of a look-alike CryptoLocker ransomware.
+Created to test the incident response handling of a look-alike CryptoLocker ransomware.
 
 ## 🚀 Introduction
 I wanted to simulate a scenario of an employee executing a file that would act like a potential CryptoLocker ransomware. My goal was to make sure it was picked up by your typical SIEM's and EDR's to make sure and get a real as possible scenario.
